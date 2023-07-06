@@ -1,40 +1,32 @@
-.title{
+form {
+    border: 2px solid rgb(67, 65, 65);
+    margin-top: 20px;
+    width: 350px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+form div{
     display: flex;
     justify-content: space-between;
 }
-.calculator{
-    background-color: rgb(235, 227, 227);
-    width: 100%;
-    max-width: 400px;
-    margin: 120px auto 0 auto;
+
+form div span{
+    border: 1px solid #3f3c3c;
     padding: 15px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 10px 8px #888888;
-}
-.screen{
-    background-color: white;
-}
-.number{
-    letter-spacing: 6px;
+    margin: 15px;
 }
 
-.keypad{
-    display: flex;
-    justify-content: space-around;
-}
-.key{
-    border: 1px solid rgb(49, 41, 41);
-    font-size: 40px;
-    padding: 5px;
-    background-color: rgb(100, 88, 88);
-    margin: 10px 0;
-    border-radius: 15px / 10% 10% 65% 65%;
-    text-align: center;
-    min-width: 60px;
-    box-shadow: 2px 3px 5px 2px #888888;
+form div span:hover{
+    cursor: pointer;
     color: white;
+    background-color: #ccc;
 }
-.key:hover{
-    background-color: #2a2929;
-    color: #ffffff;
+#answer, #equals{
+    width: 100%;
+    border: 1px solid #3f3c3c;
+    border-radius: 8px;
+    padding: 16px;
 }
